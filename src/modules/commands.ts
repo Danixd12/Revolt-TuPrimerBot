@@ -1,6 +1,9 @@
 import fs from 'fs';
 
-const commandsFiles = fs.readdirSync("./src/commands"); // todo: make this work with both src and dist
+// NO TOCAR A MENOS QUE SEPAS QUE HACES
+//esto carga los archivos
+
+const commandsFiles = fs.readdirSync("./src/commands"); 
 let commandsLoad = [];
 for (const file of commandsFiles) {
     if (!file.endsWith(".js") && !file.endsWith(".ts") || file.endsWith(".d.ts")) continue;

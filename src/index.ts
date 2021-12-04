@@ -14,4 +14,4 @@ class TuFramework extends Client {
 }
 let client = new TuFramework();
 
-client.loginBot("pdqi_1Nbcw3oux5e67Q9qm0Qm0-efHWPvz2MvPSgKf1TVTvzkWFY3APWuFc6EDV9");
+client.loginBot("TOKEN DE TU BOT");
