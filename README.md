@@ -4,7 +4,7 @@
 
 Primero descarga los archivo o clonalos.
 
-Abre la carpeta en tu editor de codigo por preferencia, configuralo a tu gusto, y una vez que lo tengas configurado, usa ``NPM RUN DEV`` para iniciarlo.
+Abre la carpeta en tu editor de codigo por preferencia, configuralo a tu gusto, y una vez que lo tengas configurado, usa ``npm run dev`` para iniciarlo.
 Deberas tener instalado node.js
 
 ### Como edito mi bot
