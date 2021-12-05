@@ -14,4 +14,9 @@ class TuFramework extends Client {
 }
 let client = new TuFramework();
 
-client.loginBot("TOKEN DE TU BOT");
+// token ?
+if (!config.token) {
+    console.error("Token no detectado.");
+} else {
+client.loginBot(config.token);
+}

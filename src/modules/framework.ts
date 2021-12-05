@@ -1,7 +1,7 @@
 import { Client } from 'revolt.js';
 import { Message } from 'revolt.js/dist/maps/Messages';
 import { commands} from './commands';
-import { Context, Command } from '../types/command';
+import { Context, Command } from './command';
 
 export class BotFramework {
     client: Client;
@@ -20,7 +20,6 @@ export class BotFramework {
         })
         this.client.on('connected', async () => {
             console.info('Conectado!'); // conectado
-            console.log(client.user?.username)
         })
   
         this.client.on('ready', async () => {

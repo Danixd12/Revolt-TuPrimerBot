@@ -1,4 +1,5 @@
-export const config = {
-    prefix: "TU PREFIJO",
-    developers: ["ID DE DESARROLLADORES", "PARA MAS ID AÑADIR COMA"]
+export const config:any = {
+    prefix: "t!",
+    developers: ["Primer developer", "SEGUNDO DEVELOPER"],
+    token: "TU TOKEN"
 };
